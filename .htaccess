@@ -1,0 +1,3 @@
+RewriteEngine on   
+RewriteCond $1 !^(index\.php|css|js|fonts|images|upload|ckeditor|ckfinder|userfiles|robots\\.txt)   
+RewriteRule ^(.*)$ /webapp/kiwind/trunk/index.php/$1 [L]
